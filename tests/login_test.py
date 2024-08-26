@@ -1,10 +1,6 @@
-from email.mime.audio import MIMEAudio
-
 from pages.base_test import BaseTest
 from pages.login_page import LoginPage
 from pages.main_page import MainPage
-from utils.locators import MainPageLocators
-
 
 class TestLogin(BaseTest):
 
